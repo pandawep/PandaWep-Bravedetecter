@@ -1,14 +1,20 @@
-.architect
-bootstrap.css
-bootstrap.js
-bootstrap.json
-bootstrap.jsonp
-build/
-classic.json
-classic.jsonp
-ext/
-modern.json
-modern.jsonp
-resources/sass/.sass-cache/
-resources/.arch-internal-preview.css
-.arch-internal-preview.css
+function isBraveUA () {
+    if (!window.Promise) {
+      return false;
+    }
+    if (typeof navigator.brave == "undefined" ||
+        typeof navigator.brave.isBrave != "function")
+    {
+      return new Promise(function (resolve) {
+        resolve(false);
+      });
+    }
+    return navigator.brave.isBrave()
+      .then((response) => {
+        return response;
+      })
+      .catch((error) => {
+        return false;
+      });
+  }
+  
