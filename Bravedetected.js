@@ -17,5 +17,3 @@ function isBraveUA () {
         return false;
       });
   }
-
-  
