@@ -1,7 +1,7 @@
 1. Copy The HTML:-main-coad-copy-hear.html  Coad
 2. Ho On Your Theme
 3. Click On Edit Html
-4. Searche </head>
+4. Searche <p>&nbsp;&lt;/head&gt;</p>
 5. And Paste The Html Coad After This 😁
 6. For Any Another Help - https://pandawephelp.blogspot.com/2023/12/help.html
 
