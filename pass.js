@@ -1,1 +1,3 @@
-var storedPassword = "112233";
+var password = "112";
+var pandawepLink = "https://pandawep.in";
+
