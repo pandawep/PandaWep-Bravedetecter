@@ -23,6 +23,7 @@
   }
   
   button {
+      margin: 10px;
     position: relative;
     background: #444;
     color: #fff;
