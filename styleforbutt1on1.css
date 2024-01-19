@@ -1,8 +1,15 @@
-
+#new{
+  color: black;
+}
+#new:hover{
+  font-weight: bold;
+  animation: glowblack 2s infinite;
+}
 #xh1{
     color: #e63434e7;
     animation: h15 3s infinite;
     animation: glow 2s infinite;
+    font-size: 70px;
 }
 #xyz{
     color: #27272c00;
@@ -23,7 +30,7 @@
   }
   
   button {
-      margin: 10px;
+    margin: 10px;
     position: relative;
     background: #444;
     color: #fff;
@@ -31,7 +38,7 @@
     text-transform: uppercase;
     border: none;
     letter-spacing: 0.1rem;
-    font-size: 1rem;
+    font-size: 50px;
     padding: 1rem 3rem;
     transition: 0.2s;
   }
@@ -132,10 +139,19 @@
       text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
     }
   }
-  
-  
-  
-  
+
+
+  @keyframes glowblack {
+    0% {
+      text-shadow: 0 0 10px rgba(12, 12, 12, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+  }
   @keyframes box {
     0% {
       box-shadow: #27272c;
