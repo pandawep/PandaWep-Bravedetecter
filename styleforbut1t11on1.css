@@ -11,28 +11,29 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%; /* Default width for the div */
-  max-width: 500px; /* Adjust this based on your needs for PC */
+  width: 100%;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .button-container {
-  margin-top: 20px; /* Adjust the margin based on your preference */
+  margin-top: 20px;
 }
 
 .button {
-  padding: 10px 20px; /* Adjust the padding based on your preference */
-  margin: 5px; /* Adjust the margin based on your preference */
-  font-size: 16px; /* Default font size */
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 3vw; /* Adjust the font size based on viewport width */
 }
 
 /* Media query for screens with a maximum width of 768 pixels (typical for mobile devices) */
 @media only screen and (max-width: 768px) {
   .button {
-    font-size: 18px; 
+    font-size: 4vw; /* Adjust font size for mobile */
   }
 }
+
 
 /* Media query for screens with a minimum width of 769 pixels (typical for desktop devices) */
 @media only screen and (min-width: 769px) {
