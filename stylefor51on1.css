@@ -2,6 +2,7 @@
   color: rgb(255, 255, 255);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
+  transition: 1s;
 }
 #new2{
   color: rgb(255, 255, 255);
@@ -20,25 +21,7 @@
   height: 100%;
   width: 100%; /* Default width for the div */
   max-width: 100%; /* Adjust this based on your needs for PC */
-
 }
-
-
-
-/* Media query for screens with a maximum width of 768 pixels (typical for mobile devices) */
-@media only screen and (max-width: 768px) {
-  .button {
-    font-size: 18px; 
-  }
-}
-
-/* Media query for screens with a minimum width of 769 pixels (typical for desktop devices) */
-@media only screen and (min-width: 769px) {
-  .button {
-    font-size: 14px; /* Adjust font size for desktop */
-  }
-}
-
 
 
 #xh1{
@@ -74,15 +57,15 @@
     text-transform: uppercase;
     border: none;
     letter-spacing: 0.1rem;
-    font-size: 1.3rem ;
-    padding: 1rem 3rem;
+    font-size: 60px ;
+    padding:70px;
     transition: 0.2s;
    
   }
   
   button:hover {
     letter-spacing: 0.2rem;
-    padding: 1.1rem 3.1rem;
+    padding: 71px;
     background: var(--clr);
     color: var(--clr);
     /* box-shadow: 0 0 35px var(--clr); */
