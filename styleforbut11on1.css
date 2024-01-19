@@ -1,5 +1,11 @@
 #new{
   color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+#new2{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
 }
 #new:hover{
   font-weight: bold;
@@ -11,29 +17,20 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
-  max-width: 500px;
+  width: 100%; /* Default width for the div */
+  max-width: 500px; /* Adjust this based on your needs for PC */
   margin-left: auto;
   margin-right: auto;
 }
 
-.button-container {
-  margin-top: 20px;
-}
 
-.button {
-  padding: 10px 20px;
-  margin: 5px;
-  font-size: 3vw; /* Adjust the font size based on viewport width */
-}
 
 /* Media query for screens with a maximum width of 768 pixels (typical for mobile devices) */
 @media only screen and (max-width: 768px) {
   .button {
-    font-size: 4vw; /* Adjust font size for mobile */
+    font-size: 18px; 
   }
 }
-
 
 /* Media query for screens with a minimum width of 769 pixels (typical for desktop devices) */
 @media only screen and (min-width: 769px) {
@@ -77,9 +74,10 @@
     text-transform: uppercase;
     border: none;
     letter-spacing: 0.1rem;
-    font-size: 1rem;
+    font-size: 60px ;
     padding: 1rem 3rem;
     transition: 0.2s;
+   
   }
   
   button:hover {
