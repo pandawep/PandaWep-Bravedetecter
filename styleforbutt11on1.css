@@ -1,10 +1,48 @@
 #new{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 #new:hover{
   font-weight: bold;
-  animation: glowblack 2s infinite;
+  animation: glowblack 5s infinite;
 }
+#size {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%; /* Default width for the div */
+  max-width: 500px; /* Adjust this based on your needs for PC */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-container {
+  margin-top: 20px; /* Adjust the margin based on your preference */
+}
+
+.button {
+  padding: 10px 20px; /* Adjust the padding based on your preference */
+  margin: 5px; /* Adjust the margin based on your preference */
+  font-size: 16px; /* Default font size */
+}
+
+/* Media query for screens with a maximum width of 768 pixels (typical for mobile devices) */
+@media only screen and (max-width: 768px) {
+  .button {
+    font-size: 18px; 
+  }
+}
+
+/* Media query for screens with a minimum width of 769 pixels (typical for desktop devices) */
+@media only screen and (min-width: 769px) {
+  .button {
+    font-size: 14px; /* Adjust font size for desktop */
+  }
+}
+
+
+
 #xh1{
     color: #e63434e7;
     animation: h15 3s infinite;
@@ -38,7 +76,7 @@
     text-transform: uppercase;
     border: none;
     letter-spacing: 0.1rem;
-    font-size: 50px;
+    font-size: 1rem;
     padding: 1rem 3rem;
     transition: 0.2s;
   }
@@ -143,13 +181,13 @@
 
   @keyframes glowblack {
     0% {
-      text-shadow: 0 0 10px rgba(12, 12, 12, 0.7);
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     }
     50% {
-      text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
     }
     100% {
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     }
   }
   @keyframes box {
