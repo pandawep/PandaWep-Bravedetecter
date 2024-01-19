@@ -17,10 +17,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 100%;
   width: 100%; /* Default width for the div */
-  max-width: 500px; /* Adjust this based on your needs for PC */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: auto; /* Adjust this based on your needs for PC */
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 10%;
+  margin-bottom: 0%;
+
 }
 
 
@@ -45,7 +49,7 @@
     color: #e63434e7;
     animation: h15 3s infinite;
     animation: glow 2s infinite;
-    font-size: 70px;
+    font-size: 4rem;
 }
 #xyz{
     color: #27272c00;
@@ -74,7 +78,7 @@
     text-transform: uppercase;
     border: none;
     letter-spacing: 0.1rem;
-    font-size: 60px ;
+    font-size: 1.3rem ;
     padding: 1rem 3rem;
     transition: 0.2s;
    
